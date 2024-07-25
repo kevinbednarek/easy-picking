@@ -4,3 +4,8 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+bumpalo = "3.16.0"
+classfile-parser = "~0.3"
+string_cache = "0.8.7"
+unicode-id-start = "1.2.0"
+serde = { version = "1.0.204", features = ["derive"] }
